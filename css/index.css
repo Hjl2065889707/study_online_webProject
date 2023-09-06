@@ -1,10 +1,74 @@
+/* 基础公共样式：清除默认样式 + 设置通用样式 */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+li {
+    list-style: none;
+}
+
+body {
+    font: 14px/1.5 "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+    color: #333;
+    background: #f3f5f7;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/*版心居中*/
 .wrapper {
     width: 1200px;
     margin: 0 auto;
 }
 
-.top {
-    height: 100px;
-    background: pink;
+/*头部*/
+.header {
+    height: 41px;
+    margin: 30px 360px;
+}
+
+/*头部logo*/
+.logo {
+    float: left;
+    width: 195px;
+    height: 41px;
+}
+
+/*导航*/
+.nav {
+    float: left;
+    margin: 0 70px;
+    height: 41px;
+    line-height: 41px;
+    background: saddlebrown;
+}
+
+
+.banner {
+    width: 1920px;
+    height: 420px;
+    background: blue;
+}
+
+.selected_interest {
+    width: 1200px;
+    height: 60px;
+    background: purple;
+}
+
+.recommend {
+    width: 1200px;
+    height: 601px;
+    background: gray;
+}
+
+.bottom {
+    width: 1920px;
+    height: 273px;
+    background: tan;
 }
