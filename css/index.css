@@ -44,10 +44,40 @@ a {
     float: left;
     margin: 0 70px;
     height: 41px;
-    line-height: 41px;
-    background: saddlebrown;
 }
 
+.nav li{
+    float: left;
+    height: 41px;
+    margin-right: 26px;
+}
+
+.nav li a {
+    display: inline-block;
+    padding: 0 9px;
+    line-height: 41px;
+    height: 41px;
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #333333;
+}
+
+.nav li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+.search {
+    float: left;
+    margin: 0 0 0 0;
+    width: 412px;
+    height: 40px;
+    background: purple;
+}
+
+.search_img {
+    margin: 12px;
+}
 
 .banner {
     width: 1920px;
