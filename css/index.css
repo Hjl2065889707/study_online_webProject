@@ -2,8 +2,11 @@
 * {
     margin: 0 auto;
     padding: 0;
+    border: 0;
+    outline: none;
     box-sizing: border-box;
 }
+
 
 li {
     list-style: none;
@@ -44,6 +47,7 @@ a {
     float: left;
     margin: 0 70px;
     height: 41px;
+
 }
 
 .nav li{
@@ -69,14 +73,43 @@ a {
 
 .search {
     float: left;
-    margin: 0 0 0 0;
+    margin-left: 59px;
     width: 412px;
     height: 40px;
     background: purple;
+    border: 1px solid #00a4ff;
 }
 
-.search_img {
-    margin: 12px;
+.search input {
+    float: left;
+    padding-left: 20px;
+    font-size: 18px;
+    width: 362px;
+    height: 38px;
+}
+
+.search input::placeholder {
+    font-size: 14px;
+    color: #999999;
+}
+
+.search button {
+    float: left;
+    width: 48px;
+    height: 38px;
+    border-left: 1px solid #00a4ff;
+    background: white url("../src/images/search.png") no-repeat center;
+}
+
+.user {
+    float: right;
+    margin-right: 35px;
+    height: 42px;
+    line-height: 42px;
+}
+
+.user img {
+    vertical-align: middle;
 }
 
 .banner {
