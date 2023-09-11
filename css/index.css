@@ -115,7 +115,7 @@ a {
 }
 
 
-
+/*轮播图banner*/
 .banner {
     height: 420px;
     background: #0092cb;
@@ -197,13 +197,52 @@ a {
     color: #00a4ff;
 }
 
-.selected_interest {
+/*精品推荐*/
+.goods {
+    margin-top: 8px;
+    padding-left: 34px;
+    padding-right: 26px;
     width: 1200px;
     height: 60px;
-    background: purple;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0
+    rgba(211, 211, 211, 0.5);
 }
 
+.goods h2 {
+    float: left;
+    line-height: 60px;
+    color: #00a4ff;
+    font-weight: 400;
+}
+
+.goods ul {
+    float: left;
+    margin-left: 30px;
+}
+
+.goods ul li {
+    line-height: 60px;
+    float: left;
+}
+
+.goods li a {
+    padding: 0 24px;
+    border-left: 1px solid #bfbfbf;
+    font-size: 16px;
+
+}
+
+.goods .change_interest {
+    line-height: 60px;
+    font-size: 14px;
+    color: #00a4ff;
+    float: right;
+}
+
+
 .recommend {
+    margin: 10px auto;
     width: 1200px;
     height: 601px;
     background: gray;
