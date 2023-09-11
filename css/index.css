@@ -212,6 +212,7 @@ a {
 .goods h2 {
     float: left;
     line-height: 60px;
+    font-size: 18px;
     color: #00a4ff;
     font-weight: 400;
 }
@@ -240,15 +241,56 @@ a {
     float: right;
 }
 
-
+/*精品课程推荐 */
 .recommend {
-    margin: 10px auto;
+    margin-top: 30px;
     width: 1200px;
-    height: 601px;
-    background: gray;
 }
 
-.bottom {
-    height: 273px;
-    background: tan;
+.recommend .title {
+    height: 45px;
+}
+
+.recommend .title h2 {
+    float: left;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.recommend .title a {
+    float: right;
+    height: 45px;
+    padding-top: 5px;
+    color: #999999;
+}
+
+.recommend .content li {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+    width: 228px;
+    height: 270px;
+    background: white;
+}
+
+.recommend .content li:nth-child(5n){
+    margin-right: 0;
+}
+
+.recommend .content li h3 {
+    height: 40px;
+    line-height: 20px;
+    margin: 20px 20px 13px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.recommend .content li p {
+    margin: 0 20px 20px;
+    color: #999999;
+}
+
+.recommend .content li p span {
+    color: #fa6400;
 }
