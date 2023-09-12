@@ -40,7 +40,7 @@ a {
 }
 
 /*头部logo*/
-.logo {
+.header .logo {
     float: left;
     width: 195px;
     height: 41px;
@@ -301,9 +301,70 @@ a {
 }
 
 .bottom {
+    height: 273px;
     margin-top: 20px;
+    padding-top: 60px;
+    background-color: white;
 }
 
-.bottom .content {
-
+.bottom .left {
+    float: left;
+    width: 432px;
+    height: 148px;
 }
+
+.bottom .left .logo {
+    display: block;
+    margin-left: 0;
+    width: 195px;
+    height: 41px;
+    background-image: url('../src/images/logo.png');
+ }
+
+.bottom .left .intro {
+    margin-top: 24px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #666666;
+}
+
+.bottom .left .download {
+    margin-top: 14px;
+    margin-left: 0;
+    text-align: center;
+    line-height: 36px;
+    display: block;
+    width: 120px;
+    height: 36px;
+    font-size: 16px;
+    color: #00a4ff;
+    border: solid 1px #00a4ff;
+}
+
+.bottom .right {
+    float: right;
+    height: 151px;
+}
+
+.bottom .right dl {
+    float: left;
+    margin-right: 92px;
+}
+
+.bottom .right dl:last-child {
+    margin-right: 0;
+}
+
+.bottom .right dt {
+    margin-bottom: 7px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.bottom .right dd a {
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+
+
