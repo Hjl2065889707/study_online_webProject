@@ -18,6 +18,10 @@ body {
     background: #f3f5f7;
 }
 
+.clearfix {
+    overflow: hidden;
+}
+
 a {
     color: #333;
     text-decoration: none;
@@ -288,9 +292,18 @@ a {
 
 .recommend .content li p {
     margin: 0 20px 20px;
+    font-size: 12px;
     color: #999999;
 }
 
 .recommend .content li p span {
     color: #fa6400;
+}
+
+.bottom {
+    margin-top: 20px;
+}
+
+.bottom .content {
+
 }
